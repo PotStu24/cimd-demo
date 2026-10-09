@@ -1,0 +1,25 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/apps/probe-service.json",
+  "client_name": "O4AA CIMD App Probe service",
+  "redirect_uris": [
+    "http://localhost:8080/authorization-code/callback"
+  ],
+  "grant_types": [
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "bb2ad900-6a1e-4683-b106-7a01a52a67a0",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "0W0untbSkc5FSXJQ3XjRjHc2-t75FT7TnpL0Kw4vU3_9z8qHFvNdfutW0toVeNfOmjvEiQzeJvDd8exuG84ekc5ex7JuvME6WnuI9al9Y3VcAztZVPuAuDqtGp294ZBvpFFsOAwTx4ho95mSyirw_-phxmz9rP7WPwwn9DUpfNZNCZtNc3sZ-MhqRFJCUHryO8CG4m1Qvt6mXKO_3v_bUO37-___Edm7vAfXT9XlNyBd0fdgJk2obP_HyKNPJ5LWopTveTolcMl16FMIJP8Ceqo8cQMh7ubw25KIWN_f6thAJyNcDSf-TuiA-QHJlFhGMoSfdmis8TK3Vo7HokYabw",
+        "e": "AQAB"
+      }
+    ]
+  }
+}
