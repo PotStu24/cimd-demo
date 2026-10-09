@@ -1,0 +1,24 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/apps/probe-v-agentlike.json",
+  "client_name": "O4AA CIMD App Probe v-agentlike",
+  "redirect_uris": [
+    "http://localhost:8080/authorization-code/callback"
+  ],
+  "grant_types": [
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "49debaf8-31f1-4e62-8412-404750243974",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "mXgkllo2rWsCtPOKMfzhw1Y7L87LEPHoxr1yr_6wqwQ_YSRmelwyiSS4B0wo5tF-1Ce_otS38wQDTqj0Zo-ajio8zytdGkHhANiCDhu7w0Y7Kykuy-aeU3snSyj43Rkxh55Zd9uE4v7HzhW3eDx0JMZxl4AfSuLehQtZPtTSzMImxO6Gge9rA9gz5EGB4NONveOVZ4-1sS7rRNZMgcktWWDAGUzihLoOoIDlVhM7xbRusfCa_dl1iuDGhLqMPeMtgiqdMqbKNU-g6NMpPoy58GcKmD-CHuryyik562nNOu6CUHrShefqlQ6HIV9MYTrU451vbqGBMkZmtZZFKGY7uw",
+        "e": "AQAB"
+      }
+    ]
+  }
+}

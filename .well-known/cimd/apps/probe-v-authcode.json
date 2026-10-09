@@ -1,0 +1,26 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/apps/probe-v-authcode.json",
+  "client_name": "O4AA CIMD App Probe v-authcode",
+  "redirect_uris": [
+    "http://localhost:8080/authorization-code/callback"
+  ],
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "03a230b7-dbc3-47cc-87db-c3fb65318e5e",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "3I_F6tiRCwmiIoV_oie3ymIJ3gcddmzPA1aj-4N4L4L6J9uImkjVHLBL2KNyGKVplsWRwyVAXAH9eBkZgvfv30DoycXdWeVhcF1epHQqQuNVA92MNKYSaEUbfHPCeXYUfQFu3Jx6JQaE12YRn2pSezEwjS2s5QNDj9jE8ZGlZR1Hw8e7hQA45vcW6pD1oDP-_poDpw7q-McDmbsgd3I2cE4x3tDhsOUL-Yn0twhglJ70x68XbFzdqiNdfFYWtKobn7pvCPyl_FvzZwWddH57xwhFSS1zqItQqPS7I7X9dtubKp678QMFuooXDhgze-SDtOGd0UcaUMlUGLOdrl_mXw",
+        "e": "AQAB"
+      }
+    ]
+  }
+}

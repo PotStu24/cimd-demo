@@ -1,0 +1,21 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/apps/probe-v-cc-noredirect.json",
+  "client_name": "O4AA CIMD App Probe v-cc-noredirect",
+  "redirect_uris": [],
+  "grant_types": [
+    "client_credentials"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "a7998f55-4a62-4a3f-addd-6956bae5aea5",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "o2-_BaOnhoz8Ch60PNjdYcJYJgiDNM7XnCMx33b4j855AI_AG_7_PHk26LuwHheAfDEdrfyWE-cUe5chzp5Rggpu3FkG9ABa6KirsSwsfDfviX_yaeSEFeFF5kIOmm7dPWRU8vje8b4e3G3nf7qfF9hQuBIR2Utqrk2arEwsJm6xKD-JxJ-GCbI4PRUyDpkPHDkTd3GMy-94H8QMv5D-vt4nf-zrNU4RkmIZ_fBmBohIkfpyavDuCnZL3DugVbQddligyIHJjaqC2dyzdlWVBigmhAkhyAskmZ-w_WfNt_DQ5H_a9AFWZzEANsIoIFotmj0u3iLNZQKkL9TNkcXnTQ",
+        "e": "AQAB"
+      }
+    ]
+  }
+}
