@@ -1,0 +1,25 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/unregistered-outsider.json",
+  "client_name": "O4AA CIMD Case Assistant",
+  "redirect_uris": [
+    "http://localhost:8080/authorization-code/callback"
+  ],
+  "grant_types": [
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "bb195f47-17b6-4ed0-bf8a-668b32fc74d4",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "zX-Fr5zFVItYztE-wX67_28gykNkNFLd6FpfU_84QQ9Wgjabg9l_plhlBeHFK9jIsMKuziaC4fa83Ni3VYnXPjq9Zc8MVFdNjaMcWbuiWG9NGZacs5wiEbEw6caSlRAhQRjZAzq69h--DTfTyBo_wtbtb8r34S7ShIQenhONarRiJG4zcyOBHGY7qLkRjjWtU823CvGlW7GOEgreeSGjIWo92u1_9igYq9EKMEemDfQvJ2yy4iEn7RbANmLDrwglYtnNw7ZKioerQRdMWX48igvS91BrZfrhhVxTvIG1EUM1cxTp1MIsN9OaBfy5VyzwRKgVxXbQsDQIWPzNFJPrrw",
+        "e": "AQAB"
+      }
+    ]
+  }
+}
