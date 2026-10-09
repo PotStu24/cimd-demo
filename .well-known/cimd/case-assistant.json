@@ -1,18 +1,23 @@
 {
   "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/case-assistant.json",
-  "client_name": "O4AA CIMD Case Assistant",
+  "client_name": "Case Assistant",
   "redirect_uris": [
     "http://localhost:8080/authorization-code/callback"
   ],
+  "grant_types": [
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
   "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
   "jwks": {
     "keys": [
       {
         "kty": "RSA",
-        "kid": "7a38b003-976e-44ec-b935-234a902c8ff5",
+        "kid": "79f027d2-aad9-49bc-86ff-65f4483ad984",
         "use": "sig",
         "alg": "RS256",
-        "n": "k7gxDM-IfC7qJgA824Lt_ToGWiZqNmzPDFYFI4yf0FXOSY8p33YYjM8xS7nvaP50zdJFlSzLjjyrDbdijcS2sS4NA30WT07va6FJgbIIw5CS8Db3A3wFJd65RkJnSIO-jjjIwgmTq5NXeAiRWl8_wfO8vcXpsT2RfQpW_DtQQDUmJyWN0Oq9f9gnSHnPcYLX5mDpMa47DUY5a3nSN7XObnKBh7hr55pM7Y0kh5gFnPo9opTFsYmEz0fqk2gl7dheswhrJewXafJ9Br9jwOLO9DbYl9K9nc75LvzDd6F2NoO3Ylwn6u30oZb_gDJe61YbbdLnWhVVYuvTbJIUuQQOrQ",
+        "n": "hhsASWILaEP3aPOL00hVR3W6MNCbWXaNidO6AyDO8g50Mxx8a4twvmAs_dmVz3Txnk4Pre8Mlh-E6zZFvRIQyWLcc_E7oVi6_UbjleRm4ZN6WWUdQ2uABi245wKW73B-k4RjxDhOsPc-e4IS6gMvMr_lInF6t68HRRjLAOaBc-XSSjSD8pgR4mm57Liz6soIjEUrdsfuT9g0fvZkvwxLUWC1VoB2yPr8hWt81ayzqcPDH6BIz--mYio-3o1XeMOAi9gZfRCvL16nIJF_z7AHLr5OBbFO9L__Batg2SCa0mdpRZtW2EYOW53qGspFWOwVO20-RpSqwloy50yMSYlgmQ",
         "e": "AQAB"
       }
     ]
