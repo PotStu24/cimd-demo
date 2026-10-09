@@ -1,5 +1,5 @@
 {
-  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/case-assistant.json",
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/orchestrator.json",
   "client_name": "O4AA CIMD Case Assistant",
   "redirect_uris": [
     "http://localhost:8080/authorization-code/callback"
