@@ -1,0 +1,1 @@
+{"client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/healthcheck.json", "client_name": "Hosting check", "redirect_uris": ["http://localhost:8080/authorization-code/callback"]}
