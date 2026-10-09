@@ -1,0 +1,25 @@
+{
+  "client_id": "https://potstu24.github.io/cimd-demo/.well-known/cimd/report-writer-converted.json",
+  "client_name": "Report Writer (converted)",
+  "redirect_uris": [
+    "http://localhost:8080/authorization-code/callback"
+  ],
+  "grant_types": [
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "kid": "e893e465-c84e-43fc-b143-76880303d11b",
+        "use": "sig",
+        "alg": "RS256",
+        "n": "gFylGs1i_r9vCtxf1GEQIls_RJJRQYsdi7wUNdPI8hMxma-BxgGVId2nR9MkGXsDVqdzDSaUa3jtWavHxqDnqnyrj95BUYWKnQA5NUzn2TaZVE1jiSrZ1b4-0hKwIzzZ9PDy6_mSxLMGxok0jhW40krYEzVVJzjQPry67mfSIinrQJRyBXPAVLXxlc8B0GsFc1T_xKeU7VeLtMOYwtsCeMnXgEaPxpwgQ74Zv5VUdKW8EG4AeTCublF-wJo7t-dr74EHXW_igIKsaUyIUoec1Auylxyo8NG-rdpqnJPjpbor1_M4ewquVTp37-nwUSC7PaZRipEsEcB40K5_LvzTiw",
+        "e": "AQAB"
+      }
+    ]
+  }
+}
